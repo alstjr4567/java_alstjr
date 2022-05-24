@@ -1,0 +1,30 @@
+class Book{//내가만들어쓰는 자료형 class
+	String title;
+	String author;
+	int price;
+}// 하나의 file에 class는 꼭잇어야함
+
+public class Ex05_13_setter_getter {
+	public static void main(String[] args) {
+		
+		Book bk1 = new Book();
+		bk1.title = "자바";
+		bk1.author = "홍길동";
+		bk1.price = 3000;
+		
+		Book bk2 = new Book();
+		bk2.title = "데이터베이스";
+		bk2.author = "태연";
+		bk2.price = 5000;
+		
+//		System.out.println(bk1.title);
+//		System.out.println(bk1.author);
+//		System.out.println(bk1.price);
+		
+		System.out.println("--------------");
+		
+//		System.out.println(bk2.title);
+//		System.out.println(bk2.author);
+//		System.out.println(bk2.price);	}
+}
+}

@@ -1,0 +1,44 @@
+
+public class 연습장2 {
+
+	public static void main(String[] args) {
+
+
+		for(int i =1 ; i<=100 ; i++) {
+			if(i%5==0) {
+				System.out.println(i);
+			}
+
+			for(i=10;i>=1 ;i--) {
+				
+				System.out.println("java"+i);
+				System.out.println("하하하");
+			}
+			
+			
+			
+			System.out.println();
+			
+			//int sum =1+2+3+4+5+6+7+8+9+10;
+			
+			int sum = 0;
+			sum = sum +10;
+			sum = sum +20; 
+			sum = sum +30; 
+			sum = sum +40; 
+			sum = sum +50; 
+			sum = sum +60; 
+			sum = sum +70; 
+			sum = sum +80; 
+			sum = sum +90;
+			
+			for(i=1;i<=1000;i++) {
+				sum=sum+ i;
+			}
+			
+
+		}
+
+	}
+
+}

@@ -1,0 +1,13 @@
+
+public class Ex05_ภิทยนฎ {
+	public static void main(String[] args) {
+		
+		int kor = 70;
+		int eng = 80;
+		int math = 90;
+		
+		int total = kor +eng + math;
+		System.out.println("รัวี:"+total);
+	}
+
+}

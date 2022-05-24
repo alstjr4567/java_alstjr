@@ -1,0 +1,7 @@
+
+public class Ex01_출력문 {
+	public static void main(String[] args) {
+		
+		System.out.print("가나다");
+	}
+}

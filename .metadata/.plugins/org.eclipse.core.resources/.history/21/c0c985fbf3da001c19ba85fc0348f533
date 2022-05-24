@@ -1,0 +1,13 @@
+
+public class Ex05_10_김민석 {
+
+	public static void main(String[] args) {
+
+	}
+
+}
+
+//정수 2개입력
+//int a,b;
+//3 4: 3의 4승을 더하는것\
+//5 3: 5의3승을 더하는것

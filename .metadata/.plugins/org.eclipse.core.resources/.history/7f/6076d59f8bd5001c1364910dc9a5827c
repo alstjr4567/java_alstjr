@@ -1,0 +1,13 @@
+
+public class Ex02_정수 {
+	public static void main(String[] args) {
+		System.out.println("1+2");
+		
+	}
+}
+/*
+화일이름 변경법
+화일이름 우클릭 -Refactor-Rename에서 이름 변경
+화일이름 클릭 F2키-이름 변경
+ 
+*/

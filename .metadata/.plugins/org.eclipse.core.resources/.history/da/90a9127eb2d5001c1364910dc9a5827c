@@ -1,0 +1,26 @@
+import java.util.Scanner;
+
+public class Ex05_입력문 {
+	public static void main(String[] args) {
+		
+		int kor = 70;
+		int eng = 80;
+		int math = 90;
+		
+		Scanner sc = new Scanner(System.in);
+		
+		int kor,eng,math;
+		System.out.println("국어점수=>");
+		kor = sc.nextInt();
+		
+		System.out.println("영어점수=>");
+		eng = sc.nextInt();
+		
+		System.out.println("수학점수=>");
+		math = sc.nextInt();
+		
+		int total = kor +eng + math;
+		System.out.println("총합:"+total);
+	}
+
+}

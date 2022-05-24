@@ -1,0 +1,24 @@
+class Product{//클래스는 같은 프로젝트안에 같은이름 있으면 안된다.
+	String company="농심";
+	String name="새우깡";
+	int prince;
+	
+}
+public class Ex05_02_클래스 {
+
+	public static void main(String[] args) {
+		
+		Product p1 = new Product();
+
+		Product p2 = new Product();
+		
+		System.out.println(p1.company);
+		System.out.println(p1.name);
+		System.out.println(p1.prince);
+		
+		System.out.println(p2.company);
+		System.out.println(p2.name);
+		System.out.println(p2.prince);
+	}
+
+}

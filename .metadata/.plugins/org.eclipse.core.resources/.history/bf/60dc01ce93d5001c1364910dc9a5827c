@@ -1,0 +1,24 @@
+
+public class Ex03_실수형 {
+	public static void main(String[] args) {
+		double d1 = 1.2;
+		double d2;
+		d2 = 3.4;
+		
+		double d3;
+		d3 = d1+d2;
+		System.out.println("d3=" + d3);
+		
+		double d4 = .123E3;//0.123 이렇게 써도됨
+		System.out.println("d4=" + d4);
+		
+		double d5 = .123E-3;//0.123 이렇게 써도됨
+		System.out.println("d5=" + d5);
+		//0.000123
+	}
+}
+/*
+실수형 자료형 
+doudle : 8byte -1.7E308~+1.7E308
+
+*/

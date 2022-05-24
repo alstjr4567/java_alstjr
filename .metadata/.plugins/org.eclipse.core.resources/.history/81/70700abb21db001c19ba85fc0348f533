@@ -1,0 +1,40 @@
+
+class Member{
+	private String id;
+	private String passwd;
+	
+	void setId(String id){
+		this.id = id;
+	}
+	
+	void setPasswd(String passwd){
+		this.passwd = passwd;
+	}
+	
+	String getId(){
+		return id;
+	}
+	
+	String getPasswd(){
+		return passwd;
+	}
+}
+public class Ex05_14_»ý¼ºÀÚ {
+
+public static void main(String[] args) {
+		
+		Member m1 = new Member();
+//		m1.id = "kim";
+//		m1.passwd = "1234";
+//		
+//		System.out.println(m1.id);
+//		System.out.println(m1.passwd);
+		
+		m1.setId("kim");
+		m1.setPasswd("1234");
+		
+		System.out.println(m1.getId());
+		System.out.println(m1.getPasswd());
+	}
+
+}

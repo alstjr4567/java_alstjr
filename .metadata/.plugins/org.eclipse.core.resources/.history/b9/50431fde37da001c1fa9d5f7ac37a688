@@ -1,0 +1,39 @@
+
+public class Ex05_03_메서드 {
+
+	public static void main(String[] args) {// main 메서드정의
+	
+		show();// show 메서드 호출
+		System.out.println("가나다");
+		show();
+		System.out.println("라마바");
+		show(); //대문자x 대소문자 똑같이 해야함.
+		//정의는 한번만 호출은 여러번
+		
+	}// main 메서드정의
+	
+	static void show(){//show 메서드 정의 대괄호 소괄호 써야함
+		System.out.println("show메서드 정의부분");
+		System.out.println("즐거운 자바 공부");
+	}
+}
+
+//아침기상
+//세수
+//냉장고에서 반찬꺼내기
+//밥솥 밥 담기
+//숟가락 놓기
+//설겆이
+//식탁 닦고
+//학원
+//공부
+//취미
+//TV
+//냉장고에서 반찬꺼내기
+//밥솥 밥 담기
+//숟가락 놓기
+//설겆이
+//식탁 닦고
+//학원
+//공부
+//취미

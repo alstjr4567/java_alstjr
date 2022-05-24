@@ -1,0 +1,19 @@
+
+public class Ex02_정수 {
+	public static void main(String[] args) {
+		System.out.println("1+2");
+		
+		int a; //int는 정수 a변수(상자)는 정수 담는 용도사용한다 선언
+		int b; //선언
+		a=1; //초기화
+		b=2; //a상자에 1넣는걸 b상자에 2넣는걸 초기화 한다 라고함, 선언을 먼저하고 초기화 해야한다
+		System.out.ptintln("a+b");
+		System.out.ptintln("a"+"b");
+	}
+}
+/*
+화일이름 변경법
+화일이름 우클릭 -Refactor-Rename에서 이름 변경
+화일이름 클릭 F2키-이름 변경
+ 
+*/

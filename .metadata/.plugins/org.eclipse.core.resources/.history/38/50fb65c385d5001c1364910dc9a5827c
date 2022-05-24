@@ -1,0 +1,9 @@
+
+public class Ex01_출력문 {
+	public static void main(String[] args) {
+		
+		System.out.println("가나다"); // 이명령어는 console창에 출력하는 명령어다
+		System.out.print("a");
+		System.out.print("b");
+	}
+}

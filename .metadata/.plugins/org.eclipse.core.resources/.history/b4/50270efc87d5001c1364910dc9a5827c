@@ -1,0 +1,13 @@
+
+public class Ex01_출력문 {
+	public static void main(String[] args) {
+		
+		System.out.println("가나다"); // println옆에 ln는 엔터효과
+		System.out.print("a"); // 이명령어는 console창에 출력하는 명령어다
+		System.out.println("b"); // 한글자는 '',"" 상관없음 두글자이상은""로 해야함
+		System.out.print("안녕\t하세요\n\n저의이름'김민석'입니다.");
+	}
+}
+//;(세미콜론) , :(콜론)
+// \t: tab탭
+// \n

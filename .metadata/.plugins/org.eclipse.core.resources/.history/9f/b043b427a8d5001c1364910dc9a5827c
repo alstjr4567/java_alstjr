@@ -1,0 +1,29 @@
+
+public class Ex04_문자형 {
+	public static void main(String[] args) {
+		
+		char ch;
+		ch='A'; // 1글자만 들어와야한다 아무것도 안들어가도 안됨
+		System.out.println("ch:" +ch);
+		System.out.println(ch+1); 
+		// A+1=66
+		// 2byte(4byte)+4byte
+		// 65+1=66
+		
+		System.out.println((char)(ch+1));
+	}
+
+}
+
+/*
+문자형 자료형
+char : 2byte 
+
+아스키코드값
+A:65
+B:66
+C:67
+
+a:97
+b:98
+*/

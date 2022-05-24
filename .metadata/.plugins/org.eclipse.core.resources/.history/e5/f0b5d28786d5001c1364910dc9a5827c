@@ -1,0 +1,10 @@
+
+public class Ex01_출력문 {
+	public static void main(String[] args) {
+		
+		System.out.println("가나다"); // println옆에 ln는 엔터효과
+		System.out.print("a"); // 이명령어는 console창에 출력하는 명령어다
+		System.out.print("b"); 
+	}
+}
+//;(세미콜론) , :(콜론)

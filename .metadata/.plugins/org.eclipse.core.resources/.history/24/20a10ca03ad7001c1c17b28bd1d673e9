@@ -1,0 +1,24 @@
+
+public class Ex04_01_1차원 {
+
+	public static void main(String[] args) {
+		
+		//int a=10,b=20,c=30; (전부 int라 4바이트로 만들어진다.)
+		//System.out.println(a);//10
+
+		int[] a = {10,20,30,40,50};//5개 각각 4바이트씩, 묶어서 각각관리하는것
+		
+		System.out.println(a);
+		System.out.println(a[0]);
+		System.out.println(a[1]);
+		System.out.println(a[2]);
+		System.out.println(a[3]);
+		System.out.println(a[4]);// 집을 index라고 한다 
+		//System.out.println(a[5]);
+		System.out.println("----------");//경계선
+		int i;
+		for(i=0;i<=4;i++) {
+			System.out.println();
+		}
+	}
+}

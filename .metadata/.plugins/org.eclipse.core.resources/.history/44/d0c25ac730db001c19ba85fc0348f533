@@ -1,0 +1,25 @@
+
+class Stu{
+	String name;
+	int kor;
+	int eng;
+	
+	Stu(){  //default 생성자가 안써도 기본으로 들어와 있다.숨어잇음
+		
+	}
+	
+}//
+
+public class Ex05_17_객체배열 {
+
+	public static void main(String[] args) {
+
+		int a=10,20,30
+		int[]arr= {10,20,30}  //같은타입은 배열로 쓸수잇다.
+		
+		Stu s1 = new Stu();
+		Stu s2 = new Stu("수지");
+		Stu s3 = new Stu("수영",60,80);
+	}
+
+}

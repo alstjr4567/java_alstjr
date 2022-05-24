@@ -1,0 +1,46 @@
+//class Calc{
+//	static int max2(int a,int b) {
+//		if(a>b)
+//			return a;
+//		else
+//			return b;
+//	}
+//}
+
+//class Math{
+//	static int max(int a,int b) {
+//		if(a>b)
+//			return a;
+//		else
+//			return b;
+//	}
+//}
+
+public class Ex05_11_Math {
+	public static void main(String[] args) {
+		
+		int a=130,b=40;
+		//int result = max2(a,b);
+		
+//		Calc c = new Calc();
+//		int result = c.max2(a, b);
+		
+		//int result = Calc.max2(a,b);
+		int result = Math.max(a, b);
+		System.out.println("result:" + result);
+		System.out.println(Math.PI);
+		
+		System.out.println(Math.abs(-3));
+		System.out.println(Math.min(a, b));
+	}
+	
+//	static int max2(int a,int b) {
+//		if(a>b)
+//			return a;
+//		else
+//			return b;
+//	}
+
+}
+
+
